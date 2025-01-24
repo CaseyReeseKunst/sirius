@@ -1,0 +1,9 @@
+Bug status in Sirius version 0.8.0
+==================================
+
+1. Or in another game, 5 min time-limit, human=white, all of a sudden I
+   had 00:05:27 time left while computer was thinking. Reproducibly
+   after I quit sirius and restarted it for a new game.
+
+Can't reproduce this one. 
+

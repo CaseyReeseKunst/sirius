@@ -1,0 +1,30 @@
+--- sirius-0.6.0/src/sirius.c   2003-05-19 05:59:46.000000000 -0400
++++ /usr/local/gnome2-build/sirius-0.6.0/src/sirius.c   2003-05-30 19:40:55.000000000 -0400
+@@ -1265,10 +1265,24 @@
+
+ void create_window() {
+        GtkWidget *status_box;
+-
++       GdkPixbuf *icon;
++       char *filename = NULL;
++       char *tmp;
++
++       tmp = gnome_program_locate_file (NULL, GNOME_FILE_DOMAIN_APP_DATADIR, "pixmaps/sirius.png", FALSE, NULL);
++       filename = gnome_unconditional_pixmap_file(tmp);
++       g_free(tmp);
++
+        window = gnome_app_new("sirius", _("Sirius"));
+-        gnome_app_create_menus(GNOME_APP(window), mainmenu);
+-        gtk_window_set_policy(GTK_WINDOW (window), TRUE, TRUE, TRUE);
++       gnome_app_create_menus(GNOME_APP(window), mainmenu);
++       gtk_window_set_policy(GTK_WINDOW (window), TRUE, TRUE, TRUE);
++
++       if (filename != NULL) {
++               icon = gdk_pixbuf_new_from_file(filename, NULL);
++               g_free (filename)
++               gtk_window_set_icon ( GTK_WINDOW ( window ), icon );
++               g_object_unref ( G_OBJECT (icon) );
++       }
+
+        status_box = gtk_hbox_new(FALSE, 10);
+
