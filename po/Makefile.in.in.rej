@@ -1,0 +1,21 @@
+***************
+*** 204,212 ****
+  	for cat in $$catalogs; do \
+  	  cat=`basename $$cat`; \
+  	  lang=`echo $$cat | sed 's/\$(CATOBJEXT)$$//'`; \
+- 	  mv $$lang.po $$lang.old.po; \
+  	  echo "$$lang:"; \
+- 	  if $(MSGMERGE) $$lang.old.po $(GETTEXT_PACKAGE).pot -o $$lang.po; then \
+  	    rm -f $$lang.old.po; \
+  	  else \
+  	    echo "msgmerge for $$cat failed!"; \
+--- 203,211 ----
+  	for cat in $$catalogs; do \
+  	  cat=`basename $$cat`; \
+  	  lang=`echo $$cat | sed 's/\$(CATOBJEXT)$$//'`; \
++ 	  cp $$lang.po $$lang.old.po; \
+  	  echo "$$lang:"; \
++ 	  if $(MSGMERGE) $$lang; then \
+  	    rm -f $$lang.old.po; \
+  	  else \
+  	    echo "msgmerge for $$cat failed!"; \

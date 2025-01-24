@@ -1,0 +1,225 @@
+# translation of ru.po to Russian
+# translation of sirius.po to Russian
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Alexandre Prokoudine <avp@altlinux.ru>, 2003
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ru\n"
+"POT-Creation-Date: 2003-06-30 15:42+0400\n"
+"PO-Revision-Date: 2003-06-30 16:36+0400\n"
+"Last-Translator: Alexandre Prokoudine <avp@altlinux.ru>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.1\n"
+
+#: src/sirius.c:346
+#, c-format
+msgid "%s looks good..."
+msgstr "%s - неплохой вариант..."
+
+#: src/sirius.c:404 src/sirius.c:418 src/sirius.c:557
+msgid "computer"
+msgstr "компьютер"
+
+#: src/sirius.c:408 src/sirius.c:422 src/sirius.c:557
+msgid "human"
+msgstr "человек"
+
+#: src/sirius.c:438 src/sirius.c:454
+msgid "This will take effekt when you start a new game, or restart Sirius"
+msgstr "Эти изменения будут учтены только в новой игре или при новой загрузке Sirius"
+
+#: src/sirius.c:445 src/sirius.c:560
+msgid "Infinit"
+msgstr "Бесконечно"
+
+#: src/sirius.c:461 src/sirius.c:558 src/sirius.c:695
+msgid "Depend on time"
+msgstr "Зависит от времени"
+
+#: src/sirius.c:567
+msgid "Sirius - Preferences"
+msgstr "Сириус - Настройки"
+
+#: src/sirius.c:583
+msgid "Players"
+msgstr "Игроки"
+
+#: src/sirius.c:613
+msgid "Black: "
+msgstr "Черные: "
+
+#: src/sirius.c:641
+msgid "White: "
+msgstr "Белые: "
+
+#: src/sirius.c:649
+msgid "Support"
+msgstr "Помощь"
+
+#. Show legals
+#: src/sirius.c:656
+msgid "Show legal moves"
+msgstr "Показывать возможные ходы"
+
+#. show last move
+#: src/sirius.c:664
+msgid "Show last move"
+msgstr "Показывать последний ход"
+
+#: src/sirius.c:675
+msgid "Computer opponent"
+msgstr "Оппонент"
+
+#: src/sirius.c:707
+msgid "Search depth: "
+msgstr "Глубина поиска: "
+
+#: src/sirius.c:717
+msgid "Use opening book"
+msgstr "Использовать протокол ходов"
+
+#: src/sirius.c:729
+msgid "Time"
+msgstr "Время"
+
+#: src/sirius.c:758
+msgid "Computer: "
+msgstr "Компьютер: "
+
+#: src/sirius.c:786
+msgid "Human: "
+msgstr "Человек: "
+
+#: src/sirius.c:806
+msgid "Code: Henrik Ohman <henrik@bitvis.nu>"
+msgstr "Программирование: Генрих Оман <henrik@bitvis.nu>"
+
+#: src/sirius.c:807
+msgid "Graphics: Geoff Parker <geoff@lorem-ipsum.net>"
+msgstr "Графика: Джефф Паркер <geoff@lorem-ipsum.net>"
+
+#: src/sirius.c:830 src/sirius.c:1350
+msgid "Sirius"
+msgstr "Сириус"
+
+#: src/sirius.c:831
+msgid "(C) 2002-2003 Henrik Ohman"
+msgstr "(C) 2002-2003 Генрих Оман"
+
+#: src/sirius.c:832
+msgid ""
+"Send comments and bug reports to:\n"
+"henrik@bitvis.nu"
+msgstr ""
+"Адрес для отзывов и сообщений об ошибках:\n"
+"henrik@bitvis.nu"
+
+#: src/sirius.c:885 src/sirius.c:956
+msgid "Black has to pass!"
+msgstr "Чёрным придётся сдаться!"
+
+#: src/sirius.c:887 src/sirius.c:958
+msgid "White has to pass!"
+msgstr "Белым придётся сдаться!"
+
+#: src/sirius.c:890
+msgid ""
+"Computer pass!\n"
+"\n"
+"Your turn again."
+msgstr ""
+"Компьютер пропустил свой ход!\n"
+"\n"
+"Снова ваша очередь ходить."
+
+#: src/sirius.c:961
+msgid "You have to pass!"
+msgstr "Вы придётся пропустить свой ход!"
+
+#: src/sirius.c:1081
+msgid ""
+"Time is up, white wins!\n"
+"Another game?"
+msgstr ""
+"Время закончилось, белые выиграли!\n"
+"Сыграем ещё?"
+
+#: src/sirius.c:1083
+msgid ""
+"Time is up, black wins!\n"
+"Another game?"
+msgstr ""
+"Время закончилось, чёрные выиграли!\n"
+"Сыграем ещё?"
+
+#: src/sirius.c:1088
+msgid "Draw! Another game?"
+msgstr "Ничья! Сыграем ещё?"
+
+#: src/sirius.c:1093 src/sirius.c:1096
+#, c-format
+msgid "You won with %d - %d! Another game?"
+msgstr "Вы выиграли со счётом %d - %d! Сыграем ещё?"
+
+#: src/sirius.c:1099 src/sirius.c:1102
+#, c-format
+msgid "You lost with %d - %d! Another try?"
+msgstr "Вы проиграли со счётом %d - %d! Попробуем отыграться?"
+
+#: src/sirius.c:1106
+#, c-format
+msgid "Black wins with %d - %d! Another game?"
+msgstr "Чёрные выиграли со счётом %d - %d! Сыграем ещё?"
+
+#: src/sirius.c:1108
+#, c-format
+msgid "White wins with %d - %d! Another game?"
+msgstr "Белые выиграли со счётом %d - %d! Сыграем ещё?"
+
+#: src/sirius.c:1123
+msgid "Computer is thinking"
+msgstr "Компьютер в раздумьях"
+
+#: src/sirius.c:1126
+msgid "Your move"
+msgstr "Ваш ход"
+
+#: src/sirius.c:1129
+msgid "Black's move"
+msgstr "Ход чёрных"
+
+#: src/sirius.c:1131
+msgid "White's move"
+msgstr "Ход белых"
+
+#: src/sirius.c:1185 src/sirius.c:1186
+#, c-format
+msgid "%d discs  %s"
+msgstr "%d фишек  %s"
+
+#: src/sirius.c:1304
+msgid "Welcome to Sirius!"
+msgstr "Добро пожаловать в Сириус!"
+
+#: src/sirius.c:1364
+msgid "Black:"
+msgstr "Чёрные:"
+
+#: src/sirius.c:1366 src/sirius.c:1372
+msgid "0 discs  00:00:00"
+msgstr "0 фишек  00:00:00"
+
+#: src/sirius.c:1370
+msgid "White:"
+msgstr "Белые:"
+
+#: src/sirius.c:1566
+#, c-format
+msgid "Could not find file %s"
+msgstr "Не удалось найти файл %s"
+

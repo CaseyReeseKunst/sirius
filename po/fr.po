@@ -1,0 +1,220 @@
+# Copyright (C) 2003 Henrik Öhman
+# This file is distributed under the same license as the Sirius package.
+# Henrik Öhman <henrik@bitvis.nu>, 2003.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Sirius 0.7.0\n"
+"POT-Creation-Date: 2003-03-17 22:02+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Stéphane Jourdan <stephane.jourdan@itris.fr>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/sirius.c:346
+msgid "%s looks good..."
+msgstr "%s a l'air d'être bien"
+
+#: src/sirius.c:368 src/sirius.c:382 src/sirius.c:485
+msgid "computer"
+msgstr "ordinateur"
+
+#: src/sirius.c:372 src/sirius.c:386 src/sirius.c:485
+msgid "human"
+msgstr "humain"
+
+#: src/sirius.c:402 src/sirius.c:418
+msgid "This will take effekt when you start a new game, or restart Sirius"
+msgstr "Ceci prendra effet en démarrant un nouveau jeu ou en relançant Sirius"
+
+#: src/sirius.c:409 src/sirius.c:488
+msgid "Infinit"
+msgstr "Infini"
+
+#: src/sirius.c:425 src/sirius.c:486 src/sirius.c:624
+msgid "Depend on time"
+msgstr "Depend du temps"
+
+#: src/sirius.c:496
+msgid "Sirius - Preferences"
+msgstr "Sirius - Preferences"
+
+#: src/sirius.c:512
+msgid "Players"
+msgstr "Joueurs"
+
+#: src/sirius.c:542
+msgid "Black: "
+msgstr "Noir: "
+
+#: src/sirius.c:570
+msgid "White: "
+msgstr "Blanc: "
+
+#: src/sirius.c:578
+msgid "Support"
+msgstr "Support"
+
+#. Show legals
+#: src/sirius.c:585
+msgid "Show legal moves"
+msgstr "Affiche les mouvements autorisés"
+
+#. show last move
+#: src/sirius.c:593
+msgid "Show last move"
+msgstr "Montre le dernier mouvement"
+
+#: src/sirius.c:604
+msgid "Computer opponent"
+msgstr "Ordinateur opposant"
+
+#: src/sirius.c:636
+msgid "Search depth: "
+msgstr "Profondeur de la recherche: "
+
+#: src/sirius.c:646
+msgid "Use opening book"
+msgstr "Utilise l'opening book"
+
+#: src/sirius.c:658
+msgid "Time"
+msgstr "Temps"
+
+#: src/sirius.c:687
+msgid "Computer: "
+msgstr "Ordinateur: "
+
+#: src/sirius.c:715
+msgid "Human: "
+msgstr "Humain: "
+
+#: src/sirius.c:735
+msgid "Code: Henrik Ohman <henrik@bitvis.nu>"
+msgstr "Code: Henrik Öhman <henrik@bitvis.nu>"
+
+#: src/sirius.c:736
+msgid "Graphics: Geoff Parker <geoff@lorem-ipsum.net>"
+msgstr "Graphisme: Geoff Parker <geoff@lorem-ipsum.net>"
+
+#: src/sirius.c:759 src/sirius.c:1209
+msgid "Sirius"
+msgstr "Sirius"
+
+#: src/sirius.c:760
+msgid "(C) 2002-2003 Henrik Ohman"
+msgstr "(C) 2002-2003 Henrik Öhman"
+
+#: src/sirius.c:761
+msgid ""
+"Send comments and bug reports to:\n"
+"henrik@bitvis.nu"
+msgstr ""
+"Envoyez les commentaires et les reports de bug à:\n"
+"henrik@bitvis.nu"
+
+#: src/sirius.c:817 src/sirius.c:886
+msgid "Black has to pass!"
+msgstr "Les noirs passent leur tour!"
+
+#: src/sirius.c:819 src/sirius.c:888
+msgid "White has to pass!"
+msgstr "Les blancs passent leur tour!"
+
+#: src/sirius.c:822
+msgid ""
+"Computer pass!\n"
+"\n"
+"Your turn again."
+msgstr ""
+"L'ordinateur passe!\n"
+"\n"
+"Encore à vous."
+
+#: src/sirius.c:891
+msgid "You have to pass!"
+msgstr "Vous passez votre tour!"
+
+#: src/sirius.c:979
+msgid ""
+"Time is up, white wins!\n"
+"Another game?"
+msgstr ""
+"Le temps est écoulé, les blancs gagnent!\n"
+"Un autre jeu?"
+
+#: src/sirius.c:981
+msgid ""
+"Time is up, black wins!\n"
+"Another game?"
+msgstr ""
+"le temps est écoulé, les noirs gagnent!\n"
+"Un autre jeu?"
+
+#: src/sirius.c:986
+msgid "Draw! Another game?"
+msgstr "Egalité! Un autre jeu?"
+
+#: src/sirius.c:991 src/sirius.c:994
+#, c-format
+msgid "You won with %d - %d! Another game?"
+msgstr "Vous avez gagné par %d - %d! Un autre jeu?"
+
+#: src/sirius.c:997 src/sirius.c:1000
+#, c-format
+msgid "You lost with %d - %d! Another try?"
+msgstr "Vous avez perdu avec %d - %d! Un autre jeu?"
+
+#: src/sirius.c:1004
+#, c-format
+msgid "Black wins with %d - %d! Another game?"
+msgstr "Les noirs gagnent par %d - %d! Un autre jeu?"
+
+#: src/sirius.c:1006
+#, c-format
+msgid "White wins with %d - %d! Another game?"
+msgstr "Les blancs gagnent par %d - %d! Un autre jeu?"
+
+#: src/sirius.c:1021
+msgid "Computer is thinking"
+msgstr "L'ordinateur reflechit"
+
+#: src/sirius.c:1024
+msgid "Your move"
+msgstr "Votre mouvement"
+
+#: src/sirius.c:1027
+msgid "Black's move"
+msgstr "Mouvement des noirs"
+
+#: src/sirius.c:1029
+msgid "White's move"
+msgstr "Mouvement des blancs"
+
+#: src/sirius.c:1082 src/sirius.c:1083
+#, c-format
+msgid "%d discs  %s"
+msgstr "%d pièces  %s"
+
+#: src/sirius.c:1198
+msgid "Welcome to Sirius!"
+msgstr "Bienvenue dans Sirius!"
+
+#: src/sirius.c:1215
+msgid "Black:"
+msgstr "Noirs:"
+
+#: src/sirius.c:1217 src/sirius.c:1223
+msgid "0 discs  00:00:00"
+msgstr "0 pièces  00:00:00"
+
+#: src/sirius.c:1221
+msgid "White:"
+msgstr "Blancs:"
+
+#: src/sirius.c:1423
+#, c-format
+msgid "Could not find file %s"
+msgstr "Impossible de trouver le fichier %s"
