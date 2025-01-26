@@ -1,1 +1,73 @@
- 
+0.8.0:
+------
+Russian translation. (Alexandre Prokoudine)
+Fixed problem with non-latin UTF-8 characters. (Vyacheslav Sdiconov)
+Tripled the size of the opening book.
+Made hints unsensitive at startup.
+Man page for Debian.
+
+0.7.0:
+------
+Added hints for the human player.
+Found and plugged a issue with a timer which was the root to a lot of strange behavior.
+Optimized the search and gained some speed.
+Fixed init problem in the transpositiontable.
+Fixed segfault in the thread handling.
+Added a lot of debug code for the search. (Compile with -DDEBUG)
+Sirius own icon as window icon (Alex Duggan)
+Frensh translation (Stéphane Jourdan)
+German translation (Poyan Rajamand)
+Swedish translation updated
+
+0.6.0:
+------
+Made sure that a move from the openingbook always is legal.
+Fixed some time issues.
+Some small gui adjustments.
+Increased the openingbook a bit.
+
+0.5.0:
+------
+Redo move implemented
+Lots of label updated
+Swedish translation
+A number of bugs removed
+
+0.4.0:
+------
+Undo move implemented
+Improved thread management
+A bug which showed wrong winner on timeup removed
+sirius.desktop rewritten to make sirius appear in the games menu with correct icon.
+A few segfaults during restart of a ongoing game removed
+
+0.3.1:
+------
+Increased the openingbooks efficency
+Added a randomfactor to the computersearch
+Lots of bugs killed
+
+0.3.0:
+------
+Timed games
+Recalculated openingbook 
+
+0.2.0:
+------
+Threaded computersearch
+Program icon
+Fixed a number of minor bugs
+
+0.1.2:
+------
+Fixed a bug which ended a ongoing game after computer pass
+
+0.1.1:
+------
+Cleaned out configure.in
+Minor gui tweaks
+Added show last move preference
+
+0.1.0:
+------
+First public release 
