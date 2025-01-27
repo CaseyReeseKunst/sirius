@@ -5,4 +5,6 @@ The AI opponent uses a plain alpha-beta search with hashing to figure out which 
 
 Siruis was written in C by Henrik Öhman. It uses the GTK GUI toolkit. 
 
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
 This is a fork of the software package maintained by bruno at https://src.fedoraproject.org/rpms/sirius
